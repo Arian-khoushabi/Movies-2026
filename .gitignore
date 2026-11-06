@@ -1,0 +1,46 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Model and ML caches
+.cache/
+huggingface/
+.huggingface/
+torch/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local dataset and generated artifacts
+audio/
+data/*.tmp
+
+# data/summaries.json

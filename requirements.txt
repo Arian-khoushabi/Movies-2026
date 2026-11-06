@@ -1,0 +1,25 @@
+# Streamlit application
+streamlit
+
+# Environment configuration
+python-dotenv
+
+# LangChain and RAG
+langchain
+langchain-core
+langchain-classic
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-cohere
+
+# Embeddings, retrieval, and reranking
+sentence-transformers
+transformers
+torch
+rank-bm25
+
+# Audio transcription / processing pipeline
+openai-whisper
+
+# ChromaDB is installed as a dependency of langchain-chroma.
